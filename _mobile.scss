@@ -1,0 +1,212 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        padding-top: 49px;
+
+        &__input {
+            display: none;
+        }
+        &__menu {
+            display: none;
+        }
+        &__menu-mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+        }
+        &__logo {
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.7));
+        }
+    }
+    .logo__image {
+        width: 99px;
+        height: 22px;
+    }
+    .catalog__title {
+        margin-top: 82px;
+        font-size: 48px;
+        line-height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        display: none;
+    }
+    .for {
+        padding-top: 32px;
+    }
+    .top-title {
+        text-align: center;
+        line-height: 100%;
+        font-size: 48px;
+        margin-top: 82px;
+    }
+    .breadcrumbs__link {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .select__filter, .select__sort {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .link {
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+    .select {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 22px;
+    }
+    .product {
+        margin-top: 48px;
+        &__content {
+            gap: 36px;
+        }
+        &__name {
+            font-size: 18px;
+        }
+        &__price {
+            font-size: 18px;
+        } &__price-sale {
+            font-size: 18px;
+        }
+        &__text {
+            margin-bottom: 8px;
+        }
+    }
+    .filtering-form {
+        max-width: calc(100vw - 32px);
+        right: -48px;
+        padding: 48px 40px;
+        gap: 24px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 287px;
+    }
+    .filtering-form__content {
+        min-width: 0;
+        max-height: none;
+        width: 100%;
+        gap: 24px;
+    }
+    .filtering-form__fieldset {
+        width: 100%;
+    }
+    .filtering-form__range {
+        width: 100%;
+    }
+    .range__slider {
+        width: 100%;
+    }
+    .range__input {
+        width: 100%;
+    }
+    .range__input::-webkit-slider-runnable-track {
+        width: 100%;
+    }
+    .color-options {
+        max-width: 100%;
+    }
+    .filtering-form__button {
+        width: 100%;
+        margin-left: 0;
+    }
+    .cart-top .top-title {
+        text-shadow: 0 -7px 8px rgba(0, 0, 0, 0.6);
+    }
+    .top__page {
+        &-subtitle {
+            text-align: center;
+            font-size: 16px;
+        }
+        &-link {
+            text-align: center;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .total {
+           grid-column: 1;
+           width: 100%;
+           box-sizing: border-box;
+        &__name {
+            width: 100%;
+        }
+    }
+    .catalog {
+        margin-bottom: 39px;
+    }
+    .cart {
+        margin-top: 92px;
+        grid-template-columns: 1fr ;
+        &__name {
+            display: none;
+        }
+        &__item-image {
+            display: none;
+        }
+        &__item-name {
+            font-size: 18px;
+            line-height: 100%;
+        }
+        &__item-price {
+            font-size: 14px;
+            line-height: 100%;
+        }
+        &__content {
+            grid-column: 1;
+            min-width: 0;
+            width: 100%;
+        }
+    }
+    .for {
+        &__items {
+            grid-template-columns: 1fr;
+        }
+        &__item,
+        &__item-big {
+            grid-column: span 1;
+        }
+          &__item-big {
+           height: 244px;
+            width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+         }
+        &__item-small {
+            height: 375px;
+            width: 100%; 
+        }
+        &__content {
+            font-size: 24px;
+            line-height: 100%;
+        }
+        &__item-big img {
+        max-width: 100%;
+        height: auto;
+        }
+        }
+    .heading {
+        font-size: 24px;
+        line-height: 100%;
+        }
+        .form {
+            width: 100%;
+        }
+    .footer {
+        &__content {
+            gap: 70px;
+        }
+        &__info {
+            gap: 100px;
+        }
+    }
+    }
